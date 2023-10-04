@@ -1,0 +1,86 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family:'Times New Roman', Times, serif;
+
+}
+.logos{width: 50px;
+margin-right: 0;
+margin-left: 40px;
+border-radius:15%;
+}
+nav{
+   background: hsl(219, 75%, 40%);
+   height: 80px;
+   width: 100%;
+}
+label.logo{color: white;
+font-size: 35px;
+line-height: 80px;
+
+font-weight: bold;
+vertical-align: bottom;
+margin-right: 0;
+text-align: center;
+
+}
+nav ul{
+   float: right;
+   margin-right: 20px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+
+}
+nav ul li a{
+   color: white;
+   font-size: 17px;
+   text-transform: uppercase;
+   border-radius: 3PX;
+   background: hsla(0, 3%, 85%, 0.438);
+}
+a.active,a:hover{
+   background: hsla(0, 3%, 85%, 0.438);
+   transition: 5s;
+   cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.elemento:hover {
+   background-color: #e74c3c;
+}
+
+.home{
+   display: flex;
+   flex-wrap: wrap;
+}
+.in-flex{
+   flex: 1;
+   padding: 25px;
+   min-width: 300px;
+   width: 8000px;
+   height: 80px;
+
+}
+.in-flex:first-child{
+   flex: 2;
+   padding: 25px;
+   background: hsla(0, 3%, 85%, 0.438);
+   margin: 20px;
+   border-radius: 2%;
+}
+.in-flex div{
+   padding: 25px;
+   background: hsla(0, 3%, 85%, 0.438);
+   border-radius: 2%;
+  
+}
