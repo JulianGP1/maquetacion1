@@ -87,9 +87,8 @@ a.active,a:hover{
    margin-left: -20px;
    max-height: 400px;
 }
-{
 
-}
+
 .slide {
    display: none;
    width: 100%;
@@ -132,4 +131,33 @@ button {
    margin-top: 50px;
    background: hsla(0, 3%, 85%, 0.438);
    border-radius: 2%;
+}
+.img2{
+   margin-top: 40px;
+   max-width: 400px;
+   max-height: 250px;
+}
+.int1{
+   max-width: 20%;
+   border-radius: 2%;
+   margin-left: 40px;
+   margin-top: 40px;
+   
+}
+.int2{
+   max-width: 20%;
+   border-radius: 2%;
+   margin-left: 40px;
+   margin-top: 40px;
+   
+}
+.int3{
+   max-width: 26%;
+   border-radius: 2%;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.home{
+   margin-top: 40px;
+   background-color: beige;
 }
