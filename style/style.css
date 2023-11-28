@@ -157,7 +157,9 @@ button {
   margin-top: 40px;
   margin-left: 120px;
 }
-.home{
+.home2{
    margin-top: 40px;
    background-color: beige;
+   display: flex;
+   flex-wrap: wrap;
 }
