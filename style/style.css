@@ -163,3 +163,11 @@ button {
    display: flex;
    flex-wrap: wrap;
 }
+.titulos{
+   text-align: center;
+   margin-top: 40px;
+}
+.textos{
+   margin-left: 5px;
+   margin-top: 20px;
+}
